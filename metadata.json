@@ -1,0 +1,6 @@
+{
+  "name": "Magic Scribe AI Writer",
+  "description": "An interactive, distraction-free writing studio where AI behaves as an inline thought partner, helping edit paragraphs and offering proactive real-time suggestions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

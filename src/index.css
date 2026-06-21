@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  ::selection {
+    background-color: #fef08a !important; /* Soft yellow accent highlight matching Scribe theme */
+    color: #451a03 !important;
+  }
+
+  /* Distraction-free, comforting custom styling for scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.16);
+  }
+
+  body {
+    background-color: #f5f5f4; /* Stone-100 fallback */
+    color: #1c1917; /* Stone-900 */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom Serif Old-Style Georgia for high-end editor vibe */
+.font-serif-elegant {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+/* Custom JetBrains Mono Code-Styling */
+.bg-stone-850 {
+  background-color: #242221;
+}
+
+.text-orange-850 {
+  color: #7c2d12; /* Tailwind orange-900 */
+}
+
+.bg-orange-150 {
+  background-color: #ffedd5; /* Tailwind orange-100 */
+}
+
+.border-stone-150 {
+  border-color: #e7e5e4; /* Tailwind stone-200 */
+}
+
+.text-stone-350 {
+  color: #a8a29e; /* Tailwind stone-400 */
+}
